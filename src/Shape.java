@@ -1,10 +1,4 @@
-public class Shape {
-    protected Shape printFigure(){
+public abstract class Shape {
+    public abstract String printShape();
 
-        return null;
-    }
-    public void SupportMethod(Shape shape){
-
-        printFigure();
-    }
 }
